@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100;
+    margin: auto;
+    background-image: url("image/home-background.jpg");
+    padding: 30px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.67%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.67%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.67%;
+}
+
+.col-9 {
+    width: 75%
+}
+
+.col-10 {
+    width: 83.33%
+}
+
+.col-11 {
+    width: 91.67%
+}
+
+.col-12 {
+    width: 100%
+}
+
+.headerContent {
+    background: "";
+}
+
+header {
+    padding: 30px 15PX;
+}
+
+header img {
+    width: 160px;
+    height: 40px;
+}
+
+span {
+    float: right;
+    margin: auto 10px;
+}
+
+span input[type="search"] {
+    width: 350px;
+    height: 30px;
+    background-color: rgb(226, 226, 226);
+    font-family: cursive;
+    border-radius: 15px;
+    padding: 3px 10px;
+    outline-style: none;
+}
+
+span a {
+    text-decoration: none;
+    height: 30px;
+    display: block;
+    width: 150px;
+    border-radius: 25px;
+}
+
+span a:hover {
+    background-color: rgb(228, 30, 30);
+}
+
+span label a,
+span label.find a {
+    font-size: 12px;
+    padding: 8px 0;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+span label a {
+    width: 100px;
+}
+
+span label.find a {
+    width: 120px;
+    background-color: rgb(228, 30, 30);
+}
+
+div.box-1,
+div.box-3,
+div.box-4 {
+    height: 155px;
+    width: 161px;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+
+
+div.box-1,{
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+div.box-2 {
+    height: 155px;
+    width: 330px;
+    background-color: rgb(233, 206, 206);
+    margin: 4px;
+    border: 1px solid white;
+    border-radius: 6px;
+    /*top: -230px;*/
+    cursor: pointer;
+}
+
+/*div img.icon{
+    margin-left: 80px;
+	width: 30px;
+	height: 5%;}*/
+
+
+div.box-3 {
+    background-color: rgb(22, 181, 192);
+    border: 1px solid rgb(22, 181, 192);
+    color: white;
+    /*top: 528px;*/
+    cursor: pointer;
+
+}
+
+div.box-4 {
+    background-color: rgb(15, 184, 29);
+    border: 1px solid rgb(15, 184, 29);
+    color: white;
+    /*top: 528px;*/
+    cursor: pointer;
+}
+
+div.box-5 {
+    height: 318px;
+    width: 670px;
+    margin: 4px;
+    background-color: "";
+    border: 1px solid "";
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+div.box-5-image img {
+    height: 318px;
+    width: 670px;
+    border: 1px solid "";
+    border-radius: 6px;
+}
+
+div img.icon {
+    display: block;
+    width: 30%;
+    height: 70%;
+    margin: 0 auto;
+    padding: 50px 0 10px 0;
+}
+
+div img.icon.first {
+    padding: 40px 0 5px 0;
+    height: 5%;
+    width: 30px;
+}
+
+div img.icon.last {
+    padding: 40px 0 5px 0;
+    height: 5%;
+    width: 30px;
+}
+
+div.col-3.box-1 {
+    background-color: white;
+    color: none;
+    cursor: pointer;
+}
+
+div.col-8.box-2 img {
+    width: 12%;
+    height: 18%;
+    top: 220px;
+}
+
+div.col-8.box-2 p{
+    top: 555px;
+}
+
+@media only screen and (min-width: 480px) and (max-width:720px)  {
+    *{
+        background:#f30;
+        height:55px;
+        padding-top:25px;
+    }
+
+/*div.smallImg {
+    width: 25%;
+    border: 2px solid greenyellow;
+    display: block;
+    margin: 0 auto;
+} */
+}
